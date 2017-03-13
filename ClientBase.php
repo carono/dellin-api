@@ -66,6 +66,16 @@ class ClientBase
      */
     const URL_CITIES = 'cities';
 
+    /***
+     * List of settlements with codes KLADR
+     */
+    const URL_PLACES = 'places';
+
+    /***
+     * List of streets with codes KLADR
+     */
+    const URL_STREETS = 'streets';
+
 
 
 
