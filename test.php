@@ -1,9 +1,8 @@
 <?php
 require 'vendor/autoload.php';
-require 'ClientBase.php';
-require 'Client.php';
 
-$client = new \carono\dellin\Client();
-$appkey = '';
-$client->appkey = $appkey;
-echo $client->packages();
+$Client = new \carono\dellin\Client([
+    'appkey' => '52D618BE-0571-11E7-9479-00505683A6D3'
+]);
+
+echo $Client->cities();
